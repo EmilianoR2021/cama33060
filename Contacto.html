@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESTUDIO NP</title>
+    <link rel="stylesheet" href="" />
+    
+    <link rel="stylesheet" href="/PROYECTO A ENTREGAR/style.css" />
+  </head>
+
+  <header>
+    <p>
+      <img
+        src="/PROYECTO A ENTREGAR/ELEMENTOS/LOGO.png"
+        alt="LOGO"
+        width="60px"
+      />
+    </p>
+
+    <p id="nombreEstudio">Estudio NPagano</p>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="/PROYECTO A ENTREGAR/index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="/PROYECTO A ENTREGAR/nosotros.html">Nosotros</a>
+        </li>
+        <li>
+          <a href="/PROYECTO A ENTREGAR/Servicios.html">Servicios</a>
+
+          <ul>
+            <li>
+              <a href="/PROYECTO A ENTREGAR/ELEMENTOS/asesoriaJuridica.html"
+                >Asesoría Jurídica</a
+              >
+            </li>
+
+            <li>
+              <a href="/PROYECTO A ENTREGAR/ELEMENTOS/servicioInmobiliario.html"
+                >Servicio Inmobiliario</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/PROYECTO A ENTREGAR/NuestrosClientes.html"
+            >Nuestros Clientes</a
+          >
+        </li>
+        <li>
+          <a href="/PROYECTO A ENTREGAR/Contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <p><h1>Contacto</h1></p>
+    <form action="" class="body__form">
+      <label for="provincia">Provincia:</label><br />
+      <select name="provincia" id="prov" class="form__input">
+        <option value="Santa Fe">Santa Fe</option>
+        <option value="Buenos Aires">Buenos Aires</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="La Pampa">La Pampa</option>
+        <option value="Jujuy">Jujuy</option>
+        <option value="Salta">Salta</option>
+        <option value="Tucumán">Tucumán</option>
+        <option value="Catamarca">Catamarca</option>
+        <option value="La Rioja">La Rioja</option>
+        <option value="San Juan">San Juan</option>
+        <option value="Mendoza">Mendoza</option>
+        <option value="Neuquén">Neuquén</option>
+        <option value="Santiago del Estero">Santiago del Estero</option>
+        <option value="Formosa">Formosa</option>
+        <option value="haco">Chaco</option>
+        <option value="Misiones">Misiones</option>
+        <option value="Corrientes">Corrientes</option>
+        <option value="San Luis">San Luis</option>
+        <option value="Río Negro">Río Negro</option>
+        <option value="Chubut">Chubut</option>
+        <option value="Santa Cruz">Santa Cruz</option>
+        <option value="Tierra del Fuego">Tierra del Fuego</option>
+        <option value="Tucumán">Entre Ríos</option></select
+      ><br /><br />
+
+      <label for="text">Tu Nombre:</label><br />
+      <input type="text" name="nombre" class="form__input" /><br /><br />
+
+      <label for="email">Tu Email:</label><br />
+      <input type="text" name="email" class="form__input" /><br /><br />
+
+      <label for="text">Asunto:</label><br />
+      <input type="text" name="asunto" class="form__input" /><br /><br />
+
+      <label for="message">Mensaje:</label><br />
+      <textarea
+        name="message"
+        id="msg"
+        cols="30%"
+        
+        class="form__input_textarea"
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Enviar Mensaje" class="body__form__enviar" />
+    </form>
+  </body>
+</html>
